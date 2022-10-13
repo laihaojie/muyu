@@ -7,6 +7,7 @@ const audio = document.querySelector("#audio")! as HTMLAudioElement
 const animate_box = document.querySelector("#animate_box")!
 const count_box = document.querySelector("#count")! as HTMLDivElement
 
+fetch('https://wss.laihaojie.com/api/tools/voiceBroadcast?text=有人使用了木鱼')
 
 let count = Number(localStorage.getItem("count") || 0)
 
